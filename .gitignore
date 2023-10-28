@@ -215,3 +215,6 @@ xcuserdata/
 ####
 # UNKNOWN: recommended by others, but I can't discover what these files are
 #
+
+# Wanna hide this guy so I don't accidentally commit my username and password
+./SigueMiSalud/Utils/StaticLogin.swift

@@ -19,17 +19,18 @@ struct ResultsView: View {
         }
       }
       .navigationTitle("Results")
+      .navigationBarTitleDisplayMode(.inline)
     }
   }
 }
 
 struct ResultRow: View {
   let result: HealthResult
-
+  
   var indicatorColor: Color {
     result.Results.map { $0.IsAbnormal }.contains(where: {$0}) ? Color.red : Color.clear
   }
-
+  
   var body: some View {
     NavigationLink {
       ResultDetails(result: result)
@@ -55,8 +56,9 @@ struct ResultRow: View {
           Image(systemName: "chevron.right")
         }
         .padding(8)
+        Divider()
       }
-      Divider()
+      .background(Color.almostClear)
     }
     .buttonStyle(.plain)
   }

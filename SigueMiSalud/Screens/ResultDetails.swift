@@ -12,9 +12,6 @@ struct ResultDetails: View {
   var body: some View {
     ScrollView {
       VStack {
-        Text(result.Name)
-          .font(.title3)
-          .fontWeight(.bold)
         ForEach(result.Results) { item in
           VStack {
             HStack(alignment: .top) {
@@ -67,34 +64,38 @@ struct ResultDetails: View {
         Spacer()
       }
     }
+    .navigationTitle(result.Name)
+    .navigationBarTitleDisplayMode(.inline)
   }
 }
 
 #Preview {
-  ResultDetails(result:
-      .init(
-        Id: .init(Value: "a"),
-        Name: "Pants",
-        OrderDate: Date.now.timeIntervalSince1970,
-        CollectedDate: Date.now.timeIntervalSince1970,
-        ResultDate: Date.now.timeIntervalSince1970,
-        DateTime: .init(UnixTimestamp: Date.now.timeIntervalSince1970),
-        TypeName: "Result",
-        Results: [
-          .init(
-            Id: .init(Value: "a"),
-            AbnormalValue: .Abnormal,
-            IsAbnormal: true,
-            Measurement: .init(
-              Value: "4",
-              NumericValue: 4,
-              Units: "Horses",
-              PrintableString: "4 Horses/Sec"
-            ),
-            Name: "Horses",
-            NormalRange: "0-2 Horses", 
-            Description: nil
-          )
-        ])
-  )
+  NavigationView {
+    ResultDetails(result:
+        .init(
+          Id: .init(Value: "a"),
+          Name: "Pants",
+          OrderDate: Date.now.timeIntervalSince1970,
+          CollectedDate: Date.now.timeIntervalSince1970,
+          ResultDate: Date.now.timeIntervalSince1970,
+          DateTime: .init(UnixTimestamp: Date.now.timeIntervalSince1970),
+          TypeName: "Result",
+          Results: [
+            .init(
+              Id: .init(Value: "a"),
+              AbnormalValue: .Abnormal,
+              IsAbnormal: true,
+              Measurement: .init(
+                Value: "4",
+                NumericValue: 4,
+                Units: "Horses",
+                PrintableString: "4 Horses/Sec"
+              ),
+              Name: "Horses",
+              NormalRange: "0-2 Horses", 
+              Description: nil
+            )
+          ])
+    )
+  }
 }
