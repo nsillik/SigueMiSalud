@@ -12,6 +12,7 @@ struct SigueMiSaludApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            .tint(Color(red: 0.2, green: 0.66, blue: 0.2))
         }
     }
 }

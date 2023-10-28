@@ -14,6 +14,18 @@
 		C8BD98602AE420870048AB0C /* SigueMiSaludTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD985F2AE420870048AB0C /* SigueMiSaludTests.swift */; };
 		C8BD986A2AE420870048AB0C /* SigueMiSaludUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98692AE420870048AB0C /* SigueMiSaludUITests.swift */; };
 		C8BD986C2AE420870048AB0C /* SigueMiSaludUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD986B2AE420870048AB0C /* SigueMiSaludUITestsLaunchTests.swift */; };
+		C8BD987A2AE428620048AB0C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98792AE428620048AB0C /* APIClient.swift */; };
+		C8BD987D2AE428B10048AB0C /* SwiftJWT in Frameworks */ = {isa = PBXBuildFile; productRef = C8BD987C2AE428B10048AB0C /* SwiftJWT */; };
+		C8BD987F2AE428EE0048AB0C /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD987E2AE428EE0048AB0C /* JWT.swift */; };
+		C8BD98822AE429EB0048AB0C /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98812AE429EB0048AB0C /* Auth.swift */; };
+		C8BD98852AE455D50048AB0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98842AE455D50048AB0C /* User.swift */; };
+		C8BD98882AE45A580048AB0C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98872AE45A580048AB0C /* MainView.swift */; };
+		C8BD988B2AE5425F0048AB0C /* HealthResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD988A2AE5425F0048AB0C /* HealthResult.swift */; };
+		C8BD988D2AE546680048AB0C /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD988C2AE546680048AB0C /* Results.swift */; };
+		C8BD988F2AE57EC10048AB0C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD988E2AE57EC10048AB0C /* ResultsView.swift */; };
+		C8BD98912AE585860048AB0C /* ResultDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD98902AE585860048AB0C /* ResultDetails.swift */; };
+		C8BD989B2AED3F430048AB0C /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD989A2AED3F430048AB0C /* DateUtils.swift */; };
+		C8BD989D2AED41080048AB0C /* StaticLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD989C2AED41080048AB0C /* StaticLogin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,17 @@
 		C8BD98652AE420870048AB0C /* SigueMiSaludUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SigueMiSaludUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BD98692AE420870048AB0C /* SigueMiSaludUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigueMiSaludUITests.swift; sourceTree = "<group>"; };
 		C8BD986B2AE420870048AB0C /* SigueMiSaludUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigueMiSaludUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8BD98792AE428620048AB0C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		C8BD987E2AE428EE0048AB0C /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		C8BD98812AE429EB0048AB0C /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		C8BD98842AE455D50048AB0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C8BD98872AE45A580048AB0C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C8BD988A2AE5425F0048AB0C /* HealthResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthResult.swift; sourceTree = "<group>"; };
+		C8BD988C2AE546680048AB0C /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		C8BD988E2AE57EC10048AB0C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		C8BD98902AE585860048AB0C /* ResultDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetails.swift; sourceTree = "<group>"; };
+		C8BD989A2AED3F430048AB0C /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		C8BD989C2AED41080048AB0C /* StaticLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticLogin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BD987D2AE428B10048AB0C /* SwiftJWT in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +119,10 @@
 		C8BD984C2AE420860048AB0C /* SigueMiSalud */ = {
 			isa = PBXGroup;
 			children = (
+				C8BD98992AED3F380048AB0C /* Utils */,
+				C8BD98862AE45A4E0048AB0C /* Screens */,
+				C8BD98832AE455C10048AB0C /* Environment */,
+				C8BD98782AE4284C0048AB0C /* API */,
 				C8BD984D2AE420860048AB0C /* SigueMiSaludApp.swift */,
 				C8BD984F2AE420860048AB0C /* ContentView.swift */,
 				C8BD98512AE420870048AB0C /* Assets.xcassets */,
@@ -129,6 +157,61 @@
 			path = SigueMiSaludUITests;
 			sourceTree = "<group>";
 		};
+		C8BD98782AE4284C0048AB0C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD98892AE542420048AB0C /* Model */,
+				C8BD98802AE429DE0048AB0C /* ReqRes */,
+				C8BD98792AE428620048AB0C /* APIClient.swift */,
+				C8BD987E2AE428EE0048AB0C /* JWT.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C8BD98802AE429DE0048AB0C /* ReqRes */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD98812AE429EB0048AB0C /* Auth.swift */,
+				C8BD988C2AE546680048AB0C /* Results.swift */,
+			);
+			path = ReqRes;
+			sourceTree = "<group>";
+		};
+		C8BD98832AE455C10048AB0C /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD98842AE455D50048AB0C /* User.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		C8BD98862AE45A4E0048AB0C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD98872AE45A580048AB0C /* MainView.swift */,
+				C8BD988E2AE57EC10048AB0C /* ResultsView.swift */,
+				C8BD98902AE585860048AB0C /* ResultDetails.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C8BD98892AE542420048AB0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD988A2AE5425F0048AB0C /* HealthResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8BD98992AED3F380048AB0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C8BD989A2AED3F430048AB0C /* DateUtils.swift */,
+				C8BD989C2AED41080048AB0C /* StaticLogin.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +228,9 @@
 			dependencies = (
 			);
 			name = SigueMiSalud;
+			packageProductDependencies = (
+				C8BD987C2AE428B10048AB0C /* SwiftJWT */,
+			);
 			productName = SigueMiSalud;
 			productReference = C8BD984A2AE420860048AB0C /* SigueMiSalud.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +303,9 @@
 				Base,
 			);
 			mainGroup = C8BD98412AE420860048AB0C;
+			packageReferences = (
+				C8BD987B2AE428B10048AB0C /* XCRemoteSwiftPackageReference "Swift-JWT" */,
+			);
 			productRefGroup = C8BD984B2AE420860048AB0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8BD98822AE429EB0048AB0C /* Auth.swift in Sources */,
+				C8BD989B2AED3F430048AB0C /* DateUtils.swift in Sources */,
+				C8BD98882AE45A580048AB0C /* MainView.swift in Sources */,
+				C8BD98912AE585860048AB0C /* ResultDetails.swift in Sources */,
+				C8BD988B2AE5425F0048AB0C /* HealthResult.swift in Sources */,
+				C8BD988F2AE57EC10048AB0C /* ResultsView.swift in Sources */,
 				C8BD98502AE420860048AB0C /* ContentView.swift in Sources */,
+				C8BD98852AE455D50048AB0C /* User.swift in Sources */,
+				C8BD987F2AE428EE0048AB0C /* JWT.swift in Sources */,
+				C8BD989D2AED41080048AB0C /* StaticLogin.swift in Sources */,
+				C8BD988D2AE546680048AB0C /* Results.swift in Sources */,
 				C8BD984E2AE420860048AB0C /* SigueMiSaludApp.swift in Sources */,
+				C8BD987A2AE428620048AB0C /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8BD987B2AE428B10048AB0C /* XCRemoteSwiftPackageReference "Swift-JWT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kitura/Swift-JWT.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8BD987C2AE428B10048AB0C /* SwiftJWT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8BD987B2AE428B10048AB0C /* XCRemoteSwiftPackageReference "Swift-JWT" */;
+			productName = SwiftJWT;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8BD98422AE420860048AB0C /* Project object */;
 }
